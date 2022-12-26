@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bannerImg{
+  width: 50%;
+}
+.ownerImg{
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #e7e7e7;
+}
+.owner-card{
+  display: flex;
+}
+
+.card-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-title {
+  margin-bottom: 0.3rem;
+}
+
+.cat {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.fa-users {
+  margin-left: 1rem;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
